@@ -9,7 +9,15 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text style={{ fontFamily: "GothicA1-Bold", fontSize: 30 }}>
+        Asset is Ready
+      </Text>
+      <Text style={{ fontFamily: "GothicA1-Light", fontSize: 30 }}>
+        Asset is Ready2
+      </Text>
+      <Text style={{ fontFamily: "GothicA1-Regular", fontSize: 30 }}>
+        Asset is Ready3
+      </Text>
     </View>
   );
 }
